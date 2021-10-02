@@ -1,7 +1,7 @@
 const first= document.querySelector("#first");
 const second= document.querySelector("#second");
 
-const btn= document.querySelector(".btn");
+const btn= document.querySelector("#check-btn");
 
 btn.addEventListener('click', () =>{
     var a = Number(first.value);
